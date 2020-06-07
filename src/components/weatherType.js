@@ -45,7 +45,7 @@ export const WeatherType = {
 	"Light showers of ice pellets": 'url(/photos/Icey.jpg)',
 	"Moderate or heavy showers of ice pellets": 'url(/photos/HeavyRain.jpg)',
 	"Patchy light rain with thunder": 'url(/photos/ThunderCloud.jpg)',
-	"Moderate or heavy rain with thunder": 'url(/photos/ThunderRain.jpg)',
+	"Moderate or heavy rain with thunder": 'url(/photos/HeavyRain.jpg)',
 	"Patchy light snow with thunder": 'url(/photos/ThunderCloud.jpg)',
 	"Moderate or heavy snow with thunder": 'url(/photos/ThunderCloud.jpg)',
 }

@@ -75,14 +75,14 @@ export default class Weather extends Component {
 				<div ref={this.weatherResults} className='weatherDisplay'>
 					<p>{this.state.name}</p>
 					<p>{this.state.region} - {this.state.country}</p>
-					<p style={{ fontSize: '60px' }}>{this.state.weather}</p>
+					<p style={{fontSize: '3em' }}>{this.state.weather}</p>
 					<p>Temp: {this.state.celsius} °C / {this.state.farenhiet} °F</p>
 					<p>Cloud: {this.state.cloud}%</p>
 					<p>Wind: {this.state.wind} Km/hr</p>
 					<p>Humidity: {this.state.humidity}%</p>
 				</div>
 
-				<p style={{ fontSize: '20px' }}>{this.state.statusText}</p>
+				<p style={{ fontSize: '1em' }}>{this.state.statusText}</p>
 			</div>
 		)
 	}
