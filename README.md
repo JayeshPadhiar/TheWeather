@@ -1,3 +1,3 @@
-A ReactJS app that provides latest Weather Upates.
+# [TheWeather](https://jayeshpadhiar.github.io/TheWeather/)
 
-Site functional: [TheWeather](https://jayeshpadhiar.github.io/TheWeather/)
+A ReactJS app that provides latest Weather Upates.
