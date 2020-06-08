@@ -9,7 +9,6 @@ export default class Weather extends Component {
 
 		this.state = {
 			statusText: '',
-
 			time: '', name: '', region: '', country: '',
 			weather: '', celsius: '', farenhiet: '',
 			humidity: '', cloud: '', wind: ''
@@ -47,10 +46,14 @@ export default class Weather extends Component {
 		this.setState({ humidity: data.current.humidity });
 		this.setState({ cloud: data.current.cloud });
 		this.setState({ wind: data.current.wind_kph });
-
 		this.setState({ statusText: 'Showing latest reports.' });
 
-		document.body.style.backgroundImage = this.weather[data.current.condition.text];
+		this.changeBackground(data.current.condition.text);
+		//document.body.style.backgroundImage = this.weather[data.current.condition.text];
+	}
+
+	changeBackground = (img) => {
+		document.body.style.backgroundImage = this.weather[img];
 	}
 
 	textChange = (event) => {

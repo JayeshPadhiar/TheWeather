@@ -1,4 +1,7 @@
 export const WeatherType = {
+
+	"Gradient" : 'linear-gradient(to bottom right, #c31432, #240b36)',
+
 	"Partly cloudy": 'url(/photos/PartlyCloudy.jpg)',
 	"Clear": 'url(/photos/Clear.jpg)',
 	"Sunny": 'url(/photos/Sunny.jpg)',
