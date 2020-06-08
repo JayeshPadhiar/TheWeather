@@ -4,8 +4,7 @@ html {
 
 body {
 	transition: 1000ms;
-	background: url(/photos/PartlyCloudy.jpg), linear-gradient(to bottom right, #c31432, #240b36), 
-		rgb(255, 115, 0);
+	background: url(/photos/PartlyCloudy.jpg), linear-gradient(to bottom right, #c31432, #240b36), #003232;
 	background-size: cover;
 	background-repeat: no-repeat;
 	align-items: center;
