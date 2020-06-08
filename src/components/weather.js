@@ -67,7 +67,7 @@ export default class Weather extends Component {
 			<div>
 				<h1>The Weather</h1>
 
-				<form className='searchBar' onSubmit={this.search} >
+				<form onSubmit={this.search} >
 					<input ref={this.textBox} type='text' placeholder='Enter your City' onChange={this.textChange} />
 					<button type='submit'>Search</button>
 				</form>
