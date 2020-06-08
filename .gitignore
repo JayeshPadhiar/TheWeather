@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# hide API Keys
+/src/components/credentials.js
+
 # production
 /build
 
