@@ -36,6 +36,9 @@ export default class Weather extends Component {
 	}
 
 	setData = (data) => {
+		
+		this.changeBackground(data.current.condition.text);
+		
 		this.setState({time: data.location.localtime});
 		this.setState({ name: data.location.name });
 		this.setState({ region: data.location.region });
@@ -47,12 +50,11 @@ export default class Weather extends Component {
 		this.setState({ cloud: data.current.cloud });
 		this.setState({ wind: data.current.wind_kph });
 		this.setState({ statusText: 'Showing latest reports.' });
-
-		this.changeBackground(data.current.condition.text);
+		
 		//document.body.style.backgroundImage = this.weather[data.current.condition.text];
 	}
 
-	changeBackground = (img) => {
+	changeBackground = (img) => {									//not in use
 		document.body.style.backgroundImage = this.weather[img];
 	}
 
